@@ -54,4 +54,4 @@ rm ~/.local/bin/ptree
 ```
 Also remove the PATH entry in your .zshrc or .bashrc if desired.
 
-Made with ❤️ by M4DF00l
+# Made with ❤️ by M4DF00l
