@@ -16,7 +16,7 @@ void human_readable_size(off_t size, char *buf, size_t bufsize)
 {
     double kb = (double)size / 1024.0;
     if (kb < 1.0) {
-        snprintf(buf, bufsize, "%ld B", size);
+        snprintf(buf, bufsize, "%lld B", size);
     } else {
         snprintf(buf, bufsize, "%.1f KB", kb);
     }
